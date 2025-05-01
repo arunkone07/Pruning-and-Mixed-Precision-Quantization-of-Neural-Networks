@@ -1,0 +1,81 @@
+Accuracy before pruning: 78.61000061035156
+Iteration  1
+Compression: 2x
+Sparse model has size=21.62 MiB = 50.71% of dense model size
+Sparse model has accuracy=77.65% before fintuning
+Finetuning Fine-grained Pruned Sparse Model
+    Epoch 1 Accuracy 92.71% / Best Accuracy: 92.71%
+    Epoch 2 Accuracy 93.14% / Best Accuracy: 93.14%
+    Epoch 3 Accuracy 93.30% / Best Accuracy: 93.30%
+    Epoch 4 Accuracy 93.44% / Best Accuracy: 93.44%
+    Epoch 5 Accuracy 93.58% / Best Accuracy: 93.58%
+    Epoch 6 Accuracy 93.66% / Best Accuracy: 93.66%
+    Epoch 7 Accuracy 93.58% / Best Accuracy: 93.66%
+    Epoch 8 Accuracy 93.73% / Best Accuracy: 93.73%
+    Epoch 9 Accuracy 93.86% / Best Accuracy: 93.86%
+    Epoch 10 Accuracy 93.76% / Best Accuracy: 93.86%
+    Epoch 11 Accuracy 93.77% / Best Accuracy: 93.86%
+    Epoch 12 Accuracy 93.79% / Best Accuracy: 93.86%
+    Epoch 13 Accuracy 93.76% / Best Accuracy: 93.86%
+    Epoch 14 Accuracy 93.83% / Best Accuracy: 93.86%
+    Epoch 15 Accuracy 93.98% / Best Accuracy: 93.98%
+Iteration  2
+Compression: 4x
+Sparse model has size=11.11 MiB = 26.07% of dense model size
+Sparse model has accuracy=89.72% before fintuning
+Finetuning Fine-grained Pruned Sparse Model
+    Epoch 1 Accuracy 93.47% / Best Accuracy: 93.47%
+    Epoch 2 Accuracy 93.46% / Best Accuracy: 93.47%
+    Epoch 3 Accuracy 93.37% / Best Accuracy: 93.47%
+    Epoch 4 Accuracy 93.54% / Best Accuracy: 93.54%
+    Epoch 5 Accuracy 93.52% / Best Accuracy: 93.54%
+    Epoch 6 Accuracy 93.53% / Best Accuracy: 93.54%
+    Epoch 7 Accuracy 93.50% / Best Accuracy: 93.54%
+    Epoch 8 Accuracy 93.62% / Best Accuracy: 93.62%
+    Epoch 9 Accuracy 93.62% / Best Accuracy: 93.62%
+    Epoch 10 Accuracy 93.72% / Best Accuracy: 93.72%
+    Epoch 11 Accuracy 93.80% / Best Accuracy: 93.80%
+    Epoch 12 Accuracy 93.76% / Best Accuracy: 93.80%
+    Epoch 13 Accuracy 93.66% / Best Accuracy: 93.80%
+    Epoch 14 Accuracy 93.74% / Best Accuracy: 93.80%
+    Epoch 15 Accuracy 93.72% / Best Accuracy: 93.80%
+Iteration  3
+Compression: 8x
+Sparse model has size=5.86 MiB = 13.74% of dense model size
+Sparse model has accuracy=75.85% before fintuning
+Finetuning Fine-grained Pruned Sparse Model
+    Epoch 1 Accuracy 93.00% / Best Accuracy: 93.00%
+    Epoch 2 Accuracy 93.25% / Best Accuracy: 93.25%
+    Epoch 3 Accuracy 93.27% / Best Accuracy: 93.27%
+    Epoch 4 Accuracy 93.32% / Best Accuracy: 93.32%
+    Epoch 5 Accuracy 93.31% / Best Accuracy: 93.32%
+    Epoch 6 Accuracy 93.40% / Best Accuracy: 93.40%
+    Epoch 7 Accuracy 93.44% / Best Accuracy: 93.44%
+    Epoch 8 Accuracy 93.48% / Best Accuracy: 93.48%
+    Epoch 9 Accuracy 93.46% / Best Accuracy: 93.48%
+    Epoch 10 Accuracy 93.51% / Best Accuracy: 93.51%
+    Epoch 11 Accuracy 93.50% / Best Accuracy: 93.51%
+    Epoch 12 Accuracy 93.54% / Best Accuracy: 93.54%
+    Epoch 13 Accuracy 93.52% / Best Accuracy: 93.54%
+    Epoch 14 Accuracy 93.50% / Best Accuracy: 93.54%
+    Epoch 15 Accuracy 93.53% / Best Accuracy: 93.54%
+Iteration  4
+Compression: 16x
+Sparse model has size=3.23 MiB = 7.58% of dense model size
+Sparse model has accuracy=60.39% before fintuning
+Finetuning Fine-grained Pruned Sparse Model
+    Epoch 1 Accuracy 92.11% / Best Accuracy: 92.11%
+    Epoch 2 Accuracy 92.43% / Best Accuracy: 92.43%
+    Epoch 3 Accuracy 92.54% / Best Accuracy: 92.54%
+    Epoch 4 Accuracy 92.52% / Best Accuracy: 92.54%
+    Epoch 5 Accuracy 92.60% / Best Accuracy: 92.60%
+    Epoch 6 Accuracy 92.65% / Best Accuracy: 92.65%
+    Epoch 7 Accuracy 92.70% / Best Accuracy: 92.70%
+    Epoch 8 Accuracy 92.62% / Best Accuracy: 92.70%
+    Epoch 9 Accuracy 92.83% / Best Accuracy: 92.83%
+    Epoch 10 Accuracy 92.77% / Best Accuracy: 92.83%
+    Epoch 11 Accuracy 92.65% / Best Accuracy: 92.83%
+    Epoch 12 Accuracy 92.75% / Best Accuracy: 92.83%
+    Epoch 13 Accuracy 92.73% / Best Accuracy: 92.83%
+    Epoch 14 Accuracy 92.68% / Best Accuracy: 92.83%
+    Epoch 15 Accuracy 92.93% / Best Accuracy: 92.93%
