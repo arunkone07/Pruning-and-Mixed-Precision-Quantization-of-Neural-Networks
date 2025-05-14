@@ -1,0 +1,14 @@
+Iteration  1
+Compression: 2x
+Sparse model has size=265.01 MiB = 50.21% of dense model size
+Sparse model has accuracy=70.36% before fintuning
+Finetuning Fine-grained Pruned Sparse Model
+    Epoch 1 Accuracy 69.26% / Best Accuracy: 69.26%
+    Epoch 2 Accuracy 70.66% / Best Accuracy: 70.66%
+    Epoch 3 Accuracy 63.94% / Best Accuracy: 70.66%
+    Epoch 4 Accuracy 67.75% / Best Accuracy: 70.66%
+    Epoch 5 Accuracy 69.71% / Best Accuracy: 70.66%
+    Epoch 6 Accuracy 67.54% / Best Accuracy: 70.66%
+    Epoch 7 Accuracy 66.61% / Best Accuracy: 70.66%
+    Epoch 8 Accuracy 69.25% / Best Accuracy: 70.66%
+    Epoch 9 Accuracy 67.39% / Best Accuracy: 70.66%

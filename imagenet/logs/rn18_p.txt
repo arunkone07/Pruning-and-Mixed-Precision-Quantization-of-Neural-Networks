@@ -1,0 +1,5 @@
+Iteration  1
+Compression: 2x
+Sparse model has size=265.01 MiB = 50.21% of dense model size
+Sparse model has accuracy=70.36% before fintuning
+Finetuning Fine-grained Pruned Sparse Model

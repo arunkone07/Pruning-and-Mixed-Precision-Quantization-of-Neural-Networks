@@ -1,0 +1,24 @@
+=> Preparing data..
+=> Preparing data..
+Files already downloaded and verified
+Files already downloaded and verified
+=> Building model..
+=> Model Parameter: 23.521 M, FLOPs: 1297.830M
+=> Building model..
+Accuracy before quantization: top1:  81.24  top5:  98.82
+[<class 'torch.nn.modules.conv.Conv2d'>, <class 'torch.nn.modules.linear.Linear'>]
+size: 46935424
+Acc after 8-bit (4x) compression: 81.21 98.83 
+
+Total number of channels:  26570
+channels quantized: 1426, acc: (81.23, 98.89), compression: 4.5x
+channels quantized: 3991, acc: (81.19, 98.88), compression: 5.0x
+channels quantized: 7330, acc: (81.13, 98.83), compression: 5.5x
+channels quantized: 10753, acc: (81.11, 98.8), compression: 6.0x
+channels quantized: 13556, acc: (80.8, 98.8), compression: 6.5x
+channels quantized: 16283, acc: (80.7, 98.74), compression: 7.0x
+channels quantized: 20118, acc: (80.74, 98.67), compression: 7.5x
+20118/26570 channels quantized to 4-bit; acc: (80.74, 98.67), compression: 7.5x
+
+Accuracy after quantization: top1:  80.74  top5:  98.67
+Best quantized model saved to ./cifar10/p+q/rn50_16.pth

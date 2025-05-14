@@ -1,0 +1,7 @@
+Accuracy before pruning: 69.31999969482422
+Iteration  1
+Compression: 2x
+Sparse model has size=4.47 MiB = 51.02% of dense model size
+Sparse model has accuracy=10.00% before fintuning
+Finetuning Fine-grained Pruned Sparse Model
+    Pruning 2x - Accuracy: 70.78%

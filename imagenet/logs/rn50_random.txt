@@ -1,0 +1,22 @@
+=> Preparing data..
+=> Preparing data..
+=> Building model..
+=> Model Parameter: 25.557 M, FLOPs: 4098.894M
+=> Building model..
+Accuracy before quantization: top1:  76.148  top5:  92.87
+[<class 'torch.nn.modules.conv.Conv2d'>, <class 'torch.nn.modules.linear.Linear'>]
+size: 51005824
+Acc after 8-bit (4x) compression: 76.146 92.874 
+
+Total number of channels:  27560
+channels quantized: 6137, acc: (72.586, 90.886), compression: 4.5x
+channels quantized: 11132, acc: (71.606, 90.424), compression: 5.0x
+channels quantized: 15105, acc: (71.154, 90.118), compression: 5.5x
+channels quantized: 18367, acc: (70.422, 89.63), compression: 6.0x
+channels quantized: 21190, acc: (69.662, 89.21), compression: 6.5x
+channels quantized: 23633, acc: (65.796, 86.4), compression: 7.0x
+channels quantized: 25727, acc: (64.36, 85.386), compression: 7.5x
+25727/27560 channels quantized to 4-bit; acc: (64.36, 85.386), compression: 7.5x
+
+Accuracy after quantization: top1:  64.36  top5:  85.386
+Best quantized model saved to ./imagenet/quantized/rn50_random.pth

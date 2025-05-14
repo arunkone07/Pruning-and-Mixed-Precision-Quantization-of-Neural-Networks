@@ -1,0 +1,21 @@
+=> Preparing data..
+=> Preparing data..
+=> Building model..
+=> Model Parameter: 138.366 M, FLOPs: 15483.854M
+=> Building model..
+Accuracy before quantization: top1:  73.382  top5:  91.504
+[<class 'torch.nn.modules.conv.Conv2d'>, <class 'torch.nn.modules.linear.Linear'>]
+size: 276688256
+Acc after 8-bit (4x) compression: 73.378 91.5 
+
+Total number of channels:  13416
+channels quantized: 7985, acc: (67.238, 87.958), compression: 4.5x
+channels quantized: 9935, acc: (67.224, 87.966), compression: 5.0x
+channels quantized: 10739, acc: (67.214, 87.946), compression: 5.5x
+channels quantized: 11409, acc: (67.204, 87.946), compression: 6.0x
+channels quantized: 11976, acc: (67.212, 87.96), compression: 6.5x
+channels quantized: 12461, acc: (67.216, 87.962), compression: 7.0x
+channels quantized: 12883, acc: (67.208, 87.954), compression: 7.5x
+12883/13416 channels quantized to 4-bit; acc: (67.208, 87.954), compression: 7.5x
+
+Accuracy after quantization: top1:  67.208  top5:  87.954
